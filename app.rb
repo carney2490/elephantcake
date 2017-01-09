@@ -19,6 +19,26 @@ number_of_items = ""
     puts "________________"
     puts "| AL  | 4.00%  |" 
     puts "________________"
-    puts "| UT  | 6.85%  |" 
+    puts "| CA  | 8.25%  |" 
+    puts "________________"
+    puts "\n"
+    puts "Please enter the appropriate 2 letter state code above in capital letter"
 
+    state_coode= gets.chomp.downcase!
+
+    if state_code == ut
+        tax_rate = 6.85
+    elsif state_code == nv
+        tax_rate = 8.00
+    elsif state_code == tx
+        tax_rate = 6.25
+    elsif state_code == al
+        tax_rate = 4.00
+    else tax_rate = 8.25
+    end
+
+    post_tax_total = (total_price_pretax)
+    
+
+    puts "Living in the state of #{state_code}, the state requires #{tax_rate} percent to be paid to them bringing your total price to #{total_price_pretax} dollars. "
 
