@@ -1,5 +1,8 @@
 number_of_items = ""
 
-def number_of_items(number)
-    number = 25
-end
+
+    puts "How many of the first item would you like to purchase?"
+    number_of_items= gets.chomp
+    puts "Okay you would like to purchase #{number_of_items} items."
+
+
