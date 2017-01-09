@@ -10,4 +10,5 @@ Elephant Cake is an exercise where we are working on user stories.
   - As a user, I want the total price shown before tax; so that I can know how much I will be paying in full before tax.
   - As a user, I want the total price shown after tax; so that I can know how much I will be paying in full.
   - As a user, I want know what state the item was sold to; so that I can pay the apppropriate taxes.
+  - As a user, I want to have a running tally of total pretax that will feed into a tax tally, so I can work with both numbers.
   
