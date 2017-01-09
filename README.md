@@ -13,3 +13,4 @@ Elephant Cake is an exercise where we are working on user stories.
   - As a user, I want to have a running tally of total pretax that will feed into a tax tally, so I can work with both numbers.
   - As a user, I want to be able to submit the order and recieve confirmation that the order has been placed, so that I know the order has been placed.
   - As a user, I want to know what total amounts recieve a discount; so that I can adjust my order to recieve the discount.
+  - As a user, I want to know what percentage discount I recieve; so that I can apply the discount correctly.
